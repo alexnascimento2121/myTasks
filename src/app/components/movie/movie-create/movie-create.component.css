@@ -1,0 +1,16 @@
+.card-home{
+    background-color:white ;
+}
+.card-home .card-title{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin:15px 20px 0 0;
+}

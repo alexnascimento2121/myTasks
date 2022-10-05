@@ -1,0 +1,16 @@
+.table{
+    margin-top: 30px;
+    width: 100%;
+}
+.action{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.edit{
+    color: orange;
+}
+
+.delete{
+    color: red;
+}

@@ -1,0 +1,16 @@
+.card-home{
+    background-color:white ;
+}
+.card-home .card-title{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card-home .card-subtitle{
+    font-size: 0.8rem;    
+}
+
+.btn_add_movies{
+    display: flex;
+    justify-content: flex-end;
+}

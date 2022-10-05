@@ -1,0 +1,33 @@
+<mat-card class="card-home mat-elevation-z3">        
+    <mat-card-title class="card-title ">
+      Add Movies
+  </mat-card-title>
+  <form [formGroup]="createForm" (ngSubmit)="createMovie()">
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="movie Title's" formControlName="title">
+     <!--  <mat-error *ngIf="createForm.get('title')?.errors?.['required']">
+            O campo <strong>Title</strong> é obrigatorio.
+        </mat-error>        
+        <mat-error *ngIf="createForm.get('title')?.hasError('minLength')">
+            O campo <strong>Title</strong> deve ser maior que {{createForm.get('title')?.errors?.['minLength'].requiredLength}} caracteres!
+        </mat-error> --> 
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="Director" formControlName="director" >
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="movie genres" formControlName="genres" >
+    </mat-form-field>    
+    
+    <mat-form-field appearance="fill">
+      <input matInput placeholder="Year Launch" formControlName="year" >
+  </mat-form-field>  
+
+  <div>
+    <button mat-flat-button color="primary" type="submit" >Save</button>    
+    <button mat-flat-button color="warn" (click)="cancel()">Cancel</button>  
+   </div>    
+  </form>   
+</mat-card>
