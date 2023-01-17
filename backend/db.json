@@ -1,0 +1,33 @@
+{
+    "films":[
+        {
+           "id":1,
+           "title":"filme a",
+           "director":"director a",
+           "genres":"genero a",
+           "year":"2000" 
+        },
+        {
+            "id":2,
+            "title":"filme b",
+            "director":"director b",
+            "genres":"genero b",
+            "year":"2010" 
+         },
+         {
+            "id":3,
+            "title":"filme c",
+            "director":"director c",
+            "genres":"genero c",
+            "year":"2020" 
+         },
+         {
+            "id":4,
+            "title":"filme d",
+            "director":"director d",
+            "genres":"genero d",
+            "year":"2022" 
+         }
+
+    ]
+}
